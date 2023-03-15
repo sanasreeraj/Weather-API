@@ -1,0 +1,152 @@
+.body{
+    background-color: #E5E5E5;
+}
+
+.main{
+    position: relative;
+    display: inline-block;
+    width: 99vw;
+    height: 98.5vh;
+    background-color:hsla(56,100%,80%,1);
+background-image:
+radial-gradient(at 9% 84%, hsla(47,89%,56%,1) 0px, transparent 50%),
+radial-gradient(at 13% 9%, hsla(359,100%,63%,1) 0px, transparent 50%),
+radial-gradient(at 93% 86%, hsla(358,64%,52%,1) 0px, transparent 50%),
+radial-gradient(at 83% 19%, hsla(38,77%,60%,1) 0px, transparent 50%),
+radial-gradient(at 28% 83%, hsla(26,82%,54%,1) 0px, transparent 50%),
+radial-gradient(at 92% 11%, hsla(177,78%,75%,1) 0px, transparent 50%),
+radial-gradient(at 17% 81%, hsla(12,78%,79%,1) 0px, transparent 50%);
+}
+
+.search{
+    position: relative;
+    display: inline-block;
+    bottom: 45vh;
+    left: 57.8vw;
+}
+
+.input1{
+    background: linear-gradient(322.09deg, rgba(249, 57, 57, 0.2) 13.99%, rgba(255, 98, 98, 0.2) 104.25%), linear-gradient(273.21deg, #F94545 -7%, rgba(255, 80, 80, 0.65) 102.49%), url(.jpg);
+    width: 19vw;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    border: black solid 0.5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    font-size: 1.2vw;
+    font-family: 'Lucida Sans';
+}
+
+.but{
+    background: linear-gradient(324.84deg, rgba(239, 188, 56, 0.136) 14.05%, rgba(250, 186, 24, 0.2) 100%), linear-gradient(271.24deg, #FDD368 -4.18%, #F8B70F -4.17%, rgba(222, 194, 123, 0.6) 110.03%), url(.jpg);
+    width: 5vw;
+    height: 5vh;
+    border-radius: 50px;
+    border: black solid 0.5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-family: 'Lucida Sans';
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+    width: 25vw;
+    height: 56vh;
+    left: -10vw;
+    bottom: -20vh;
+    background: linear-gradient(324.84deg, rgba(239, 188, 56, 0.136) 14.05%, rgba(250, 186, 24, 0.2) 100%), linear-gradient(271.24deg, #FDD368 -4.18%, #F8B70F -4.17%, rgba(222, 194, 123, 0.6) 110.03%), url(.jpg);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.container1{
+    position: relative;
+    display: inline-block;
+    width: 25vw;
+    height: 56vh;
+    left: 8vw;
+    bottom: -20vh;
+    background: linear-gradient(322.09deg, rgba(249, 57, 57, 0.2) 13.99%, rgba(255, 98, 98, 0.2) 104.25%), linear-gradient(273.21deg, #F94545 -7%, rgba(255, 80, 80, 0.65) 102.49%), url(.jpg);
+    box-shadow: 0px 8px 16px rgba(24, 19, 6, 0.25);
+    border-radius: 16px;
+}
+
+.data{
+    position: absolute;
+    bottom: 0vh;
+    width: 25vw;
+    height: 15vh;
+    display: grid;
+    background: white;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: 27px;
+    font-family: 'Lucida Sans';
+}
+
+.temperature{
+    position: relative;
+    display: inline-block;
+    width : 15vw;
+    font-size: 65px;
+    bottom: 3vh;
+    left: 2vw;
+    font-family: 'Lucida Sans';
+}
+
+.degree{
+    position: relative;
+    display: inline-block;
+    font-size: 3.5vw;
+    left: -0.75vw;
+    bottom: -0.2vh;
+}
+
+.city{
+    position: relative;
+    display: inline-block;
+    width : 15vw;
+    font-size: 65px;
+    bottom: 15vh;
+    left: 2vw;
+    font-family: 'Lucida Sans';
+}
+
+.date{
+    position: relative;
+    display: inline-block;
+    width: 15vw;
+    left: 1vw;
+    bottom: 1vh;
+}
+
+.condition{
+    position: relative;
+    display: inline-block;
+    width: 15vw;
+    left: 1vw;
+    bottom: 3vh;
+}
+
+.temp{
+    position: relative;
+    display: inline-block;
+    width: 15vw;
+    left: 1vw;
+    bottom: 5.2vh;
+}
+
+.icon{
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    left: 20vw;
+    bottom: 14.5vh;
+}
+.content{
+    position: absolute;
+}
